@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/.git": true,
+    "**/tsconfig*": true,
+    "**/.gitignore": true,
+    "**/package*.json": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/.git": true
+  }
+}

@@ -1,0 +1,41 @@
+/* Menu container styles */
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.096);
+    color: #333;
+
+  }
+  
+  /* Title styles */
+  .menu-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Button styles */
+  .menu-button {
+    margin: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    border: none;
+    background-color: rgb(112, 112, 112);
+    color: rgb(243, 243, 243);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.274);
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: rgb(87, 87, 87);
+  }
+  
+  .menu-button:active {
+    background-color: rgb(66, 66, 66);
+
+  }
+  

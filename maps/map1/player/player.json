@@ -1,0 +1,45 @@
+{
+  "name": "Sample Floor",
+  "position": {
+    "x": 100,
+    "y": 250
+  },
+  "size": {
+    "width": 52,
+    "height": 57
+  },
+  "animations": [
+    {
+      "name": "walk",
+      "imgaeUrl": "/mWalk.png",
+      "frames": 10,
+      "rows": 4,
+      "framesSize": {
+        "width": 430,
+        "height": 519
+      },
+      "imageSize": {
+        "width": 5210,
+        "height": 576
+      }
+    },
+    {
+      "name": "idle",
+      "imgaeUrl": "/idle.png",
+      "frames": 15,
+      "rows": 5,
+      "framesSize": {
+        "width": 430,
+        "height": 519
+      },
+      "imageSize": {
+        "width": 5210,
+        "height": 576
+      }
+    }
+  ],
+  "velacity": {
+    "x": 0,
+    "y": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "serializeFloors": [
+    {
+      "id": "unique-id-123",
+      "name": "Sample Floor",
+      "position": {
+        "x": 50,
+        "y": 250
+      },
+      "size": {
+        "width": 600,
+        "height": 50
+      },
+      "animations": [
+        {
+          "name": "floor",
+          "imgaeUrl": "/floor.avif",
+          "frames": 1,
+          "rows": 1,
+          "framesSize": {
+            "width": 200,
+            "height": 50
+          },
+          "imageSize": {
+            "width": 200,
+            "height": 50
+          }
+        }
+      ],
+      "velacity": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "backGrundImage": {
+    "url": "/background.webp"
+  },
+  "gravity": 50,
+  "gameSize": {
+    "width": 300,
+    "height": 400
+  },
+
+  "spawnPositions": [
+    { "x": 100, "y": 100 },
+    { "x": 200, "y": 100 },
+    { "x": 300, "y": 100 }
+  ]
+}
